@@ -1,0 +1,27 @@
+Username:	psmrima
+API Key:	69c15e0e05c1b29133c7373b02371025
+
+
+curl -F "username=psmrima" -F "key=69c15e0e05c1b29133c7373b02371025" -F 'src=http://www.google.com' \
+      http://pdfcrowd.com/api/pdf/convert/uri/ > google_com.pdf
+	  
+	  
+cat > ~/.pdfcrowd <<!
+-username psmrima
+-key 69c15e0e05c1b29133c7373b02371025
+-width 210mm
+-height 297mm
+!
+
+
+
+./pdfcrowd.sh http://www.orderdude.com/cgi-perl/VirtualOrdering_7.cgi/CHIPOTLEFAXORDER/174/ > ../pdforders/174.pdf
+
+
+wget http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-i386.tar.bz2
+
+tar -xvf wkhtmltopdf-0.11.0_rc1-static-i386.tar.bz2
+
+
+ ./wkhtmltopdf-i386 -q http://www.orderdude.com/cgi-perl/VirtualOrdering.cgi/CHIPOTLEFAXORDER/254/ 254.pdf
+

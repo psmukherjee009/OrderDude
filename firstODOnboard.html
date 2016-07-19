@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>MerchantOnboarding</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="scripts/jquery-1.8.0.min.js"></script>
+<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+<script src="scripts/firstODOnBoard.js"></script>
+<link rel="stylesheet" href="css/ODOnBoarding.css">
+<!-- Version : 1.0 , Capability : ['First Page of Onboarding'] -->
+</head>
+<body>
+<div id="home" data-role="page">
+<div data-role="header">
+<h1>OrderDude</h1>
+</div>
+<div data-role="content">
+	<div id="LoginError"></div>
+	
+	<DIV  id = "LOGIN">
+		<H1>Login</H1>
+		<ul data-role="listview" data-inset="true">
+			<li data-role="fieldcontain">
+			Username : <INPUT  name = "Username" id="log_login" value="phone number" data-mini="true" /></li>
+			<li data-role="fieldcontain">
+			Password : <INPUT  name = "Password" type = "password" id="log_password" data-mini="true" /></li>
+			<li data-role="fieldcontain">
+			<INPUT  value = "Login" name = "Submit" type = "submit" id="login_pg" data-mini="true" />
+			</li>
+		</ul>
+	</DIV>
+	
+	<h1> ---------- OR -----------</h1>
+	<div id="Error"></div>
+	
+	<div id="signup">
+		<H1>Sign Up</H1>
+		<b>Information</b>
+		<div id="identity_table">
+			<ul data-role="listview" data-inset="true">
+			<li data-role="fieldcontain">Name : <input maxlength="256" size="60" name="name" value="Restaurant Name" id="res_name" data-mini="true" /></li>
+			<li data-role="fieldcontain">Phone : <input maxlength="15" size="15" name="phone" value="555-555-5555" id="res_phone" data-mini="true" /></li>
+			<li data-role="fieldcontain">Phone Carrier : <select name="carrier" id="res_phone_carrier" data-mini="true"><option>att</option><option>verizon</option><option>sprint</option><option>tmobile</option></select></li>
+			<li data-role="fieldcontain"><input type="checkbox" name="res_use_sms" id="res_use_sms" data-mini="true" /><label for="res_use_sms">SMS orders</label></li>
+			<li data-role="fieldcontain">Password : <input type="password" maxlength="256" size="60" name="password" value="" id="res_password" data-mini="true" /><br /><sub>Phone# is username</sub></li>
+			</ul>
+		</div>
+		<br /><br />
+		<b>Products</b></div>
+		<div data-role="fieldcontain" id="product_table">
+			<fieldset data-role="controlgroup">
+			<input name="product" value="ordering" type="checkbox" id="res_products_ordering" checked data-mini="true" /><label for="res_products_ordering">Ordering <sub>(0.9% or 20 cents per order whichever is greater)</sub></label>
+			<input name="product" value="dinein" type="checkbox" id="res_products_dinein" data-mini="true" /><label for="res_products_dinein">Dine In <sub>(Comes with Ordering but you should be able to support ordering for dine in)</sub></label>
+			<input name="product" value="payatcounter" type="checkbox" id="res_products_payatcounter" data-mini="true" /><label for="res_products_payatcounter">Pay at Counter <sub>(Select this if pay at counter is supported)</sub></label>
+			<input name="product" value="payment" type="checkbox" id="res_products_payment" data-mini="true" /><label for="res_products_payment">Payment <sub>(4.5% or $0.50 per order whichever is greater)</sub></label>
+			</fieldset>
+		</div>
+		<br />
+		<div data-role="fieldcontain" id="misc_table">	
+			<ul data-role="listview" data-inset="true">
+			<li data-role="fieldcontain"><b>Tax Rate:</b><input type="range" name="tax_rate" id="res_tax" value="8" min="0" max="100" data-highlight="true" data-mini="true" />%</li>
+			</ul>
+		</div>
+		<div id="submit_btn"><input type="Submit" id="onboardmerchant_pg1" data-mini="true" value="next"></div>
+	</div>
+	<div data-role="footer"  data-position="fixed">
+	</div>
+</div>
+</body></html>

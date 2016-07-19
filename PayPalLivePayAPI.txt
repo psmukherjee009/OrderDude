@@ -1,0 +1,11 @@
+curl --insecure \
+-H "Content-Type: application/json; charset=UTF-8" \
+-H "X-PAYPAL-SECURITY-USERID: pp_1353421194_biz_api1.orderdude.com" \
+-H "X-PAYPAL-SECURITY-PASSWORD: 1353421212" \
+-H "X-PAYPAL-SECURITY-SIGNATURE: AVnLV.sPA0EdyGiyjYdBJQrL1OPwAyXUfkLAS4-D3ncVofUxxhsbz5ER" \
+-H "X-PAYPAL-REQUEST-DATA-FORMAT: JSON" \
+-H "X-PAYPAL-RESPONSE-DATA-FORMAT: JSON" \
+-H "X-PAYPAL-APPLICATION-ID: APP-1JE4291016473214C" \
+-X POST \
+https://svcs.paypal.com/AdaptivePayments/Pay \
+--data '{"requestEnvelope":{"errorLanguage":"en_US"},"actionType":"PAY","receiverList":{"receiver":[{"amount":"2.50","email":"pp@orderdude.com"}]},"cancelUrl":"https://hyper94.ca1.paypal.com:8080/cancel","returnUrl":"https://hyper94.ca1.paypal.com:8080/return"    ,"senderEmail":"byon_1@paypal.com","currencyCode":"USD","receiverOptions":[{"receiver":{"email":"pbehara-seller@paypal.com"},"customId":    "Aramark Merchant ID","description":"Aramark Refreshment Service","invoiceData":{"item":[{"name":"Cheetos Crunchy","itemCount":1,"price"    :1.5,"itemPrice":1.5},{"name":"Coke","itemCount":1,"price":1,"identifier":"aramark_Coke","itemPrice":1}],"totalTax":0,"totalShipping":0}}]}'

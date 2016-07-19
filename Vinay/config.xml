@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.orderdude"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.1.0" />
+	<preference name="permissions" value="none" />
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+		
+	<access origin="*" />
+	<icon src="icon.png" />
+        <name>OrderDude</name>
+
+        <description>
+        Every chain restaurant creates their own app for ordering. Some of them are not good, some of them have no apps (god knows why). Can we really download hundreds of apps and enter payment into in each app and then wonder if they can keep your credit card safe?
+Wouldn't it be awesome if there was one app to rule them all without any security worries?
+
+Introducing OrderDude. Now you can order at variety of chain restaurants from a single app.
+(We are starting with Chipotle Mexican Grill. We wanted it to be out there asap. Yes we are working on more chains. For any feedback or if you would like your favorite chain added, email us at contact@orderdude.com
+
+Some key features of this app are:
+- Skip lines. Most restaurants have a separate line for phone/fax orders. So when you order, you can skip lines and go straight to the payment counter.
+- Remembers your past orders: Reordering is as simple as two clicks.
+- No Credit Card or payment Information needed (Pay at the restaurant counter. We do not ask for credit cards)
+- No app permissions required: Our app (or website) only needs GPS location to find nearby restaurants.
+- In app purchases are disabled. Which means no accidental clicking and buying
+- Do not want to install the app? You can simply bookmark our website http://www.orderdude.com . It works the same as mobile app.
+        </description>
+
+        <author href="http://orderdude.com" email="info@orderdude.com">
+        Partha S Mukherjee
+        </author>
+
+    </widget>

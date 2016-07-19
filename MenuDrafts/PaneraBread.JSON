@@ -1,0 +1,636 @@
+{
+    "Breakfast Sandwiches": {
+        "Everything Bagel Steak Egg and Cheese": {
+            "description": "",
+            "price": "$4.99",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Asiago Bagel Egg and Cheese": {
+            "description": "",
+            "price": "$3.89",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Asiago Bagel Bacon Egg and Cheese": {
+            "description": "",
+            "price": "$4.29",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Bacon Egg and Cheese": {
+            "description": "",
+            "price": "$4.09",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Egg and Cheese": {
+            "description": "",
+            "price": "$3.99",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "French Toast Bagel Breakfast Sandwich": {
+            "description": "",
+            "price": "$4.29",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Mediterranean Egg White Breakfast Sandwich": {
+            "description": "",
+            "price": "$4.59",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Power Breakfast Sandwich": {
+            "description": "",
+            "price": "$4.09",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        },
+        "Sausage Egg and Cheese": {
+            "description": "",
+            "price": "$4.09",
+			"personalize": [ 
+				{
+					"Bagels": {
+						"choice": 1,
+						"options": ["Everything Bagel", "French Toast Bagel", "Asiago Cheese Bagel", "Cinnamon Crunch Bagel", "Whole Grain Bagel", "Chocolate Chip Bagel", "Blueberry Bagel", "Cinnamon Swirl and Raisin Bagel", "Plain Bagel", "Sesame Bagel"]
+					},
+					"Eggs": {
+						"choice": 1,
+						"options": ["Whole Egg","Egg Whites"]
+					},
+					"Cheeses": {
+						"choice": 1,
+						"options": ["American", "Gruyere Cheese", "Asiago Parmesan", "White Cheddar regular", "Fontina Cheese", "Smoked Cheddar", "Feta", "Gorgonzola", "Gouda", "Fresh Mozzarella", "Four Cheese Italian Blend", "Swiss", "Sliced Mozzarella"]
+					},
+					"Meats": {
+						"choice": 1,
+						"options": ["Bacon", "Niman Sausage", "Ham", "Steak regular", "Chicken", "Chicken Salad", "Salami", "Tuna Salad", "Roasted Turkey", "Smoked Sliced "]
+					},
+					"Toppings": {
+						"choice": "All",
+						"options": ["Avocado", "Basil", "Cucumber", "Field Greens", "Romaine Lettuce", "Green Leaf Lettuce", "Red Onions", "Peppadew Peppers", "Pepperoncini", "Salt and Pepper regular", "Sliced Tomatoes", "Roasted Tomatoes", "Spinach"]
+					}
+				}
+			]
+        }
+    },
+    "Breakfast Baked Egg Souffles": {
+        "Four Cheese": {
+            "description": "",
+            "price": "$4.09"
+        },
+        "Roasted Tomato and Feta Baked Egg Souffle": {
+            "description": "",
+            "price": "$3.99"
+        },
+        "Spinach and Artichoke": {
+            "description": "",
+            "price": "$4.09"
+        },
+        "Spinach and Bacon": {
+            "description": "",
+            "price": "$4.09"
+        }
+    },
+    "Breakfast Bakery": {
+        "Bagel Pack": {
+            "description": "",
+            "price": "$13.99"
+        },
+        "Bagels and Morning Pastries": {
+            "description": "",
+            "price": "$26.99"
+        },
+        "Morning Continental": {
+            "description": "",
+            "price": "$49.99"
+        },
+        "Morning Pastries": {
+            "description": "",
+            "price": "$26.99"
+        }
+    },
+    "Breakfast Parfaits, Fruit Bowls and Oatmeal": {
+        "Fruit Bowl - Large": {
+            "description": "",
+            "price": "$29.99"
+        },
+        "Fruit Bowl - Small": {
+            "description": "",
+            "price": "$22.99"
+        },
+        "Oatmeal with Strawberries and Pecans": {
+            "description": "",
+            "price": "$4.19"
+        },
+        "Strawberry Granola Parfait": {
+            "description": "",
+            "price": "$29.99"
+        }
+    },
+    "Salads Premium Signature Salads": {
+        "Chicken Cobb with Avocado": {
+            "description": "",
+            "price": "$49.99"
+        }
+    },
+    "Salads Signature Salads": {
+        "Asian Sesame Chicken": {
+            "description": "",
+            "price": "$44.99"
+        },
+        "Chicken Caesar": {
+            "description": "",
+            "price": "$44.99"
+        },
+        "Fuji Apple Chicken": {
+            "description": "",
+            "price": "$44.99"
+        },
+        "Greek with Shrimp Salad": {
+            "description": "",
+            "price": "$54.99"
+        },
+        "Mediterranean Shrimp Couscous Salad": {
+            "description": "",
+            "price": "$54.99"
+        },
+        "Spinach Power": {
+            "description": "",
+            "price": "$44.99"
+        },
+        "Thai Chicken": {
+            "description": "",
+            "price": "$49.99"
+        }
+    },
+    "Salads Cafe Salads": {
+        "Caesar": {
+            "description": "",
+            "price": "$39.99"
+        },
+        "Classic": {
+            "description": "",
+            "price": "$39.99"
+        },
+        "Classic with Chicken": {
+            "description": "",
+            "price": "$49.99"
+        },
+        "Greek": {
+            "description": "",
+            "price": "$39.99"
+        },
+        "Greek with Chicken": {
+            "description": "",
+            "price": "$49.99"
+        }
+    },
+    "Cafe Soups for a Group": {
+        "Mac and Cheese": {
+            "description": "",
+            "price": "$19.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "All-Natural Bistro French Onion Soup": {
+            "description": "",
+            "price": "$13.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "All-Natural Chicken Noodle (Low-Fat)": {
+            "description": "",
+            "price": "$13.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "Black Bean (Low-Fat and Vegetarian)": {
+            "description": "",
+            "price": "$13.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "Broccoli Cheddar": {
+            "description": "",
+            "price": "$13.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "Cream of Chicken and Wild Rice": {
+            "description": "",
+            "price": "$13.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "Creamy Tomato (Vegetarian)": {
+            "description": "",
+            "price": "$13.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        },
+        "Turkey Chili": {
+            "description": "",
+            "price": "$18.99",
+			"personalize": [ 
+				{
+					"Side": {
+						"choice": 1,
+						"options": ["French Baguette","None","Whole Grain Baguette"]
+					}
+				}
+			]
+        }
+    },
+    "Beverages Hot Drink Totes": {
+        "Dark Roast Coffee": {
+            "description": "",
+            "price": "$16.99"
+        },
+        "Decaf Coffee": {
+            "description": "",
+            "price": "$16.99"
+        },
+        "Hazelnut Coffee": {
+            "description": "",
+            "price": "$16.99"
+        },
+        "Hot Chocolate with Chocolate Chip Marshmallows": {
+            "description": "",
+            "price": "$14.99"
+        },
+        "Hot Tea": {
+            "description": "",
+            "price": "$16.99"
+        },
+        "Light Roast Coffee": {
+            "description": "",
+            "price": "$16.99"
+        }
+    },
+    "Sodas": {
+        "Diet Pepsi: 2-Liter": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Pepsi: 2-Liter": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Sierra Mist: 2-Liter": {
+            "description": "",
+            "price": "$2.99"
+        }
+    },
+    "Individual Soda and Water": {
+        "Diet Pepsi: 20 fl oz.": {
+            "description": "",
+            "price": "$1.99"
+        },
+        "Individual Bottle of Water": {
+            "description": "",
+            "price": "$1.99"
+        },
+        "Pepsi: 20 fl oz.": {
+            "description": "",
+            "price": "$1.99"
+        },
+        "Sierra Mist: 20 fl oz.": {
+            "description": "",
+            "price": "$1.99"
+        }
+    },
+    "Cold Drink Totes": {
+        "Acai Berry Tote": {
+            "description": "",
+            "price": "$9.99"
+        },
+        "Green Tea Tote": {
+            "description": "",
+            "price": "$9.99"
+        },
+        "Hibiscus Tea Tote": {
+            "description": "",
+            "price": "$9.99"
+        },
+        "Iced Green Tea (2 Containers)": {
+            "description": "",
+            "price": "$11.99"
+        },
+        "Iced Tea (2 Containers)": {
+            "description": "",
+            "price": "$11.99"
+        },
+        "Iced Tea Unsweetened": {
+            "description": "",
+            "price": "$9.99"
+        },
+        "Lemonade (2 Containers)": {
+            "description": "",
+            "price": "$11.99"
+        },
+        "Premium Orange Juice(2 Containers)": {
+            "description": "",
+            "price": "$16.99"
+        },
+        "Sweet Tea Tote": {
+            "description": "",
+            "price": "$9.99"
+        }
+    },
+    "Sweets": {
+        "Brownies": {
+            "description": "",
+            "price": "$14.49"
+        },
+        "Cupcakes - 4 Count": {
+            "description": "",
+            "price": "$14.49"
+        },
+        "Cinnamon Crumb Coffee Cake Whole": {
+            "description": "",
+            "price": "$14.99"
+        },
+        "Cookies": {
+            "description": "",
+            "price": "$12.49"
+        },
+        "Cookies and Brownies": {
+            "description": "",
+            "price": "$13.49"
+        }
+    },
+    "Sides": {
+        "Apple": {
+            "description": "",
+            "price": "$1.00"
+        },
+        "Chips": {
+            "description": "",
+            "price": "$0.85"
+        },
+        "French Baguette": {
+            "description": "",
+            "price": "$0.79"
+        },
+        "Whole Grain Baguette": {
+            "description": "",
+            "price": "$0.79"
+        },
+        "Baked Chips": {
+            "description": "",
+            "price": "$0.99"
+        }
+    },
+    "Spreads": {
+        "Plain Cream Cheese - Tub": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Reduced Fat Cream Cheese - Tub": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Chive and Onion Cream Cheese - Tub": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Hazelnut Cream Cheese - Tub": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Honey Walnut Cream Cheese - Tub": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Reduced-Fat Roasted Veg - Tub": {
+            "description": "",
+            "price": "$2.99"
+        },
+        "Wild Blueberry Cream Cheese - Tub": {
+            "description": "",
+            "price": "$2.99"
+        }
+    }
+}

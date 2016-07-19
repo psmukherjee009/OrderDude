@@ -1,0 +1,177 @@
+global.sRestaurant.Info.no_dinein_orders
+global.sRestaurant.Info.products.payment == checked
+alert('Complete Order');
+
+Just the data
+{"order":{"FORTHEWEIGHTWATCHERS":[{"KACHUMARSALAD":"2","price":"$1.00"}]},"Total":"2","Tax":"0.16","TotalafterTax":"2.16","Tip":"0","GrandTotal":"2.16","invoiceData":"\"invoiceData\":{\"item\":[{\"name\":\"KACHUMARSALAD\",\"itemCount\":2,\"price\":2,\"itemPrice\":1}],\"totalTax\":0.16,\"totalShipping\":0}","Name":"P","Phone":"0932328","Payment":"Due"}
+
+	
+
+if ( global.sRestaurant.Cart.OrderId != -1 ) {
+		if ( typeof global.sRestaurant.Cart.PPKey != 'undefined' ) {
+			Page_Payment();
+		}
+		else {
+			Page_CompleteOrder();
+		}
+	}
+
+
+if ( typeof global.Input['id'] != 'undefined' ) { // Asking for Restaurant Page
+		global.Start_Page = global.Input['id'];
+		ops_Restaurant(document.URL);
+	}
+load_restaurant(res_id)
+
+global.Start_Page = global.Input['id'];
+
+
+// Store the Order for future access
+	var ono = 0;
+	if ( typeof localStorage.getItem("OrderNo") != 'undefined' ) {
+		ono = localStorage.getItem("OrderNo");
+	}
+	if ( ono > global.MaxPreviousOrderStore ) {
+		ono = 0
+	}
+	ono += 1;
+	localStorage.setItem("OrderNo",ono);
+	localStorage.setItem("OrderNo_"+ono,markup);
+
+
+"Payment" : "Due"
+
+"Payment" : "At Counter"
+
+"Payment" : "Paid"
+
+order_details.invoiceData = create_invoice();
+MtM9oAw8jZ9LokCkmsdMWVRnGxc
+http://www.orderdude.com/VirtualOrdering_4.html?complete_order=0
+http://www.orderdude.com/VirtualOrdering_4.html?complete_order=1&pid=y+4s5q8MqyfFfcLzDteOL7oB0OI
+
+global.Input['Name'] = localStorage.getItem('Name');
+global.Input['Phone'] = localStorage.getItem('Phone');
+
+
+postcollectinfo
+ops_postcollectinfo
+
+
+
+function processInfo() {
+	//alert("Loading Post Data");
+	loadPostInput(options);
+	//alert("Loaded Post Data");
+	if (global.Input['remember_me'] == 'on') { // Store the inputs locally
+		localStorage.setItem('Name',global.Input['Name']);
+		localStorage.setItem('Phone',global.Input['Phone']);
+	}
+	//alert("After remember me");
+	// Get the values in local storage
+	if ( !global.Input['Name'] )
+		global.Input['Name'] = localStorage.getItem('Name');
+	if ( !global.Input['Phone'] )
+		global.Input['Phone'] = localStorage.getItem('Phone');
+	
+	// Order with Name and Phone number ready
+}
+
+
+enc_order_id
+
+
+Payment_Complete_Url : '/cgi-bin/VirtualOrdering_4.cgi/COMPLETEORDER/',
+
+global.Cart.Payment
+
+
+var tip = global.sRestaurant.Cart.Tip;
+	var tip_amount = Math.round(global.sRestaurant.Cart.Total*tip)/100;
+
+$footer.find("h4").html("Total = $"+Math.round(global.sRestaurant.Cart.Total*100)/100);
+
+
+
+	var footer_markup = '<a href="https://www.paypal.com/webscr?cmd=_ap-payment&paykey='+ppkey+'"  data-role="button">Pay with PayPal</a>';
+	footer_markup += '<a href="#" data-role="button" class="cart_button ui-btn-right">Pay at Counter</a>';
+
+http://www.orderdude.com/VirtualOrdering_4.html#completeorder?pid=bAD6QPvqgqaHLLER6N1Rvanm4bM
+http://www.orderdude.com/VirtualOrdering_4.html#completeorder
+
+function showObject(ObjName,Obj) {
+	var seen = [];
+	alert(ObjName+JSON.stringify(Obj, function(key, val) {
+		if (typeof val == "object") {
+			if (seen.indexOf(val) >= 0)
+				return undefined;
+			seen.push(val);
+		}
+		return val;
+	}));
+}
+
+buData = JSON.parse(bu_list);
+	for (var i = 0; i < buData.length ; ++i) {
+		Object.keys(buData[i]).forEach(function(key) {
+			// Somehow deep conversion doesn't happen
+			global.sRestaurant[key] = JSON.parse(JSON.stringify(buData[i][key]));
+		});
+		
+	}
+
+
+OrderMsg:"",
+	Message:"",
+	Error:"",
+	Cart : ,
+	Input
+global.Input['Name']
+global.Input['Phone']
+
+Page_Payment(global.sRestaurant.Cart.PPKey)
+global.sRestaurant.Cart.OrderId
+
+loadGetInput(urlObj.href);
+
+json2hash
+hash2json
+hash2prettyjson
+
+		"Restaurant" : {
+				"id"	: -1,
+				"Phone" : "",
+				"Carrier" : ""
+			}
+
+
+
+my $cmd = "select Info_JSON
+			from $table_ob
+			where id = $id";
+	my @info_db_data = get_from_DB($cmd);
+
+
+stripPhone2Numbers
+carrier2SMSemail
+viewableOrder($order_hash)
+
+echo "Combo Mini
+Vegetable Biryani x 2 $7.25
+---------------------------------------
+Total 14.5
+---------------------------------------
+Tax 1.16
+---------------------------------------
+Total after Tax 15.66
+---------------------------------------
+Tips 0
+---------------------------------------
+Grand Total 15.66
+---------------------------------------
+" | /bin/mail -s "Order # 209" 4083097328@txt.att.net
+
+
+
+
+"/usr/bin/curl --insecure -H "Content-Type: application/json; charset=UTF-8" -H "X-PAYPAL-SECURITY-USERID: pp_api1.strategytrades.com" -H "X-PAYPAL-SECURITY-PASSWORD: P4CS9BMU3R9Q8EQ2" -H "X-PAYPAL-SECURITY-SIGNATURE:  AUfPb7b8FMclQemEK24Th74UAv4nA7v33lVCVBQb1WiEAWe57WHOB0L8" -H "X-PAYPAL-REQUEST-DATA-FORMAT: JSON" -H "X-PAYPAL-RESPONSE-DATA-FORMAT: JSON" -H "X-PAYPAL-APPLICATION-ID: APP-1HF849871X809650T" -X POST https://svcs.paypal.com/AdaptivePayments/Pay --data '{"requestEnvelope":{"errorLanguage":"en_US"},"currencyCode":"USD","actionType":"PAY","receiverList":{"receiver":[{"amount":"12.85","email":"pp@strategytrades.com"}]},"cancelUrl":"https://www.orderdude.com/VirtualOrdering_4.html?completeorder=0","returnUrl":"https://www.orderdude.com/VirtualOrdering_4.html?completeorder=1&pid=m+FGp03aT5cswtbE1bynMe6ZIXY","receiverOptions":[{"receiver":{"email":"pp@orderdude.com"},"customId": "OrderDude Merchant ID","description":"OrderDude Inc.","invoiceData":{"item":[{"name":"BENGEN BHUJIA","itemCount":2,"price":11.9,"itemPrice":5.95}],"totalTax":0.95,"totalShipping":0}}]}'"

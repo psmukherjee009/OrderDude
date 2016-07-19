@@ -1,0 +1,11 @@
+Mail Server Username: orderdude+orderdude.com
+Incoming Mail Server: mail.orderdude.com
+Incoming Mail Server: (SSL) srv45.hosting24.com
+Outgoing Mail Server: mail.orderdude.com (server requires authentication) port 25
+Outgoing Mail Server: (SSL) srv45.hosting24.com (server requires authentication) port 465
+Supported Incoming Mail Protocols: POP3, POP3S (SSL/TLS), IMAP, IMAPS (SSL/TLS)
+Supported Outgoing Mail Protocols: SMTP, SMTPS (SSL/TLS)
+
+
+
+

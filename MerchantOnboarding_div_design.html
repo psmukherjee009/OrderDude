@@ -1,0 +1,88 @@
+<!DOCTYPE html">
+<html><head>
+<meta charset="utf-8">
+<title>MerchantOnboarding</title>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="scripts/jquery-1.8.0.min.js"></script>
+<script src="scripts/jquery.simple-color.js"></script>
+<script src="scripts/ODOnBoarding.js"></script>
+<link rel="stylesheet" href="css/ODOnBoarding.css">
+</head>
+<body>
+<div id="orderdude_logo"><img id="orderdudelogo" src="images/OrderDudeLogo.png" alt="" ><div id="submit_btn"><input value="next" src="images/Sign-Forward-icon.png" type="image" id="onboardmerchant_pg1"></div></div>
+
+<div id="Error"></div>
+<table id = "maintable">
+<tr>
+<td div="upper_left">
+	<img id="company_logo" src="images/CompanyLogoImage.gif">
+	<p>Background Color<br />
+		<input id='bkcolor' class='simple_color' value='#cc3333'/>
+	</p>
+	<table id="lower_left_identity_table">
+		<tr><td><div class="forminputlabel">Name</div><input maxlength="256" size="60" name="name" value="Restaurant Name" id="res_name">*</td></tr>
+		<tr><td><div class="forminputlabel">Description</div><input maxlength="256" size="60" name="description" value="Describe your Restaurant Type" id="res_description">*</td></tr>
+		<tr><td><div class="forminputlabel">Password</div><input type="password" maxlength="256" size="60" name="password" value="" id="res_password">*<br><sub>You can login using any of verified email, phone or fax as username</sub></td></tr>
+	</table>
+</td>
+<td div="upper_right">
+	<div class="forminputlabel">Address</div>
+	<table id="address_table">	
+		<tr><td><input maxlength="256" size="40" name="addr_line1" value="Street Address 1" id="res_address_line1">*</td></tr>
+		<tr><td><input maxlength="256" size="40" name="addr_line2" value="Street Address 2" id="res_address_line2"></td></tr>
+		<tr><td><input maxlength="60" size="30" name="addr_city" value="City" id="res_address_city">*</td><td>State:<select name="state" id="res_address_state"><option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option></select>*</td></tr>
+		<tr><td><input name="zip" value="zip" id="res_address_zip"></td></tr>
+	</table>
+	<div class="forminputlabel">Communication</div>
+	<table id="communication_table">
+	<tr>
+		<td colspan='2'><div class="forminputlabel">Email :</div><input maxlength="256" size="40" name="email" value="you@yourcompany.com" id="res_email"></td>
+					<td><div class="forminputlabel">Email all Orders</div><input name="res_use_email" type="checkbox" id="res_use_email"></td>
+						</tr>
+
+	<tr>
+		<td><div class="forminputlabel">Phone :</div> <input maxlength="15" size="15" name="phone" value="1-555-555-5555" id="res_phone">*</td>
+				<td><div class="forminputlabel">Carrier:</div><select name="carrier" id="res_phone_carrier"><option>att</option><option>verizon</option><option>sprint</option><option>tmobile</option></select></td>
+					<td><div class="forminputlabel">SMS all the orders</div><input name="res_use_sms" type="checkbox" id="res_use_sms"></td>
+						</tr>
+								
+
+	<tr>
+		<td colspan='2'><div class="forminputlabel">Fax :</div><input maxlength="15" size="15" name="fax" value="1-555-555-5555" id="res_fax"></td>
+				<td><div class="forminputlabel">Fax all the orders</div><input name="res_use_fax" type="checkbox" id="res_use_fax"></td>
+					</tr>
+	<tr><td colspan='3'><br><sub>Verification msg will be sent to phone and email (if provided)</sub></td></tr>
+	</table>
+	<div class="forminputlabel">Products</div>
+	<table id="product_table">
+		<tr><td><input name="product" value="ordering" type="checkbox" id="res_products_ordering"> Ordering! </td>
+			<td><input name="product" value="payment" type="checkbox" id="res_products_payment">Payment+</td></tr>
+	</table>
+	<p>!<sub>4.9% per order</sub></p>
+	<p>+<sub>Standard Payment fees aplies if payment is processed</sub></p>
+</td>
+</tr>
+<tr>
+<td div="lower_left">
+	<table id="menu_table">
+		<tr><th><br /><div class="forminputlabel" id="menu_label">Menu Card</div></th></tr>
+		<tr><td id="menu_location_idx"><img id="menu_link" src="images/MenuCard_Sym.PNG"></td></tr>
+		</table>
+</td>
+<td div="lower_right">
+	<div class="forminputlabel" id="ophrs_label">Operating Hours</div>
+	<br />
+	<div id="hourForm">
+		<div id="Sunday" class="day"></div>
+		<div id="Monday" class="day"></div>
+		<div id="Tuesday" class="day"></div>
+		<div id="Wednesday" class="day"></div>
+		<div id="Thursday" class="day"></div>
+		<div id="Friday" class="day"></div>
+		<div id="Saturday" class="day"></div>
+	</div>
+</td>
+</tr>
+</table>
+
+</body></html>

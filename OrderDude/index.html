@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>OrderDude</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script type="text/javascript" charset="utf-8" src="phonegap-1.3.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.0.1.css" />
+
+	<script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="jamPay.js"></script>
+	<script type="text/javascript" src="jquery/jquery.mobile-1.0.1.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+//  _gaq.push(['_setAccount', 'UA-31030939-1']);
+//  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<style type="text/css">
+table.reference
+{
+background-color:#ffffff;
+border:1px solid #c3c3c3;
+border-collapse:collapse;
+width:100%;
+}
+
+table.reference th
+{
+background-color:#e5eecc;
+border:1px solid #c3c3c3;
+padding:3px;
+vertical-align:top;
+text-align:left;
+}
+
+table.reference td 
+{
+border:1px solid #c3c3c3;
+padding:3px;
+vertical-align:top;
+}
+.ui-btn-inner { 
+}
+
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
+</style>
+
+
+</head>
+<body>
+
+<div data-role="page" id="restaurants">
+
+	<div data-role="header" id="restaurantsHeader" >
+		<h1>Order Dude</h1>
+	</div>
+	<div data-role="content">
+		<br/>
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#" onClick="handleEvent('loadData', '')">Pick A Restaurant</a></li>
+			<li><a href="#exit">Exit App</a></li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" id="checkout">
+
+	<div data-role="header" id="checkoutHeader" >
+		<h1>Checkout</h1>
+	</div>
+	<div data-role="content">
+	<div id="additionalData"></div>
+	</div>
+	<form id="checkoutForm" data-ajax="false">
+		<div data-role="fieldcontain">
+			<label for="senderId">Your Phone Number:</label>
+			<input type="text" name="senderId" id="senderId" value="" placeholder="xxx-xxx-xxxx" class="required"/>
+		</div>
+		<input type="hidden" name="order" id="order" value="Testing SendOrder 2"/>
+		<input type="hidden" id="pathUrl" id="pathUrl" value="" />
+		<button id="cab-submit" type="submit" >Place Order</button>
+		<button type="button" onClick="handleEvent('clearOrder');">Clear Order</button>
+	</form>
+	
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#restaurants" data-direction="reverse">home</a></li>
+		</ul>
+</div>
+
+
+
+<!-- Begin: Error page -->
+<div id="error" data-role="page">
+<header data-role="header" id="errorHeader"><h3><div id="errorHeader1"></div></h3></header>
+<div class="content" data-role="content">
+			<div id="message"></div>
+			<a href="#errorClose" data-role="button">Close</a>
+</div>
+<!-- footer data-role="footer"></footer -->
+</div>
+<!-- End: Error page -->
+
+<a href="#error"
+id="show-error-page"
+data-role="button"
+data-rel="dialog"
+data-transition="pop"
+style="display: none">Show error page</a>
+
+
+</body>
+</html>

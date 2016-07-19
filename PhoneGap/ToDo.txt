@@ -1,0 +1,6 @@
+global.Start_Page = global.Input['id'];
+		global.Start_Page = global.Start_Page.replace('#restaurant','');
+		//alert("Set Start Page to "+global.Start_Page);
+		ops_Restaurant(document.URL);
+
+

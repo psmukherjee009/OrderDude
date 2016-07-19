@@ -1,0 +1,15 @@
+{
+	margin:0;
+	padding:0;
+}
+
+body {
+	font:normal 72.5% "Lucida Sans Unicode",sans-serif;
+	width : 1000px;
+	margin : 0;
+	padding : 0;
+	background : #696969;
+}
+
+
+.error{border-color:#F00; color:#F00}

@@ -1,0 +1,30 @@
+<!DOCTYPE html">
+<html><head>
+<meta charset="utf-8">
+<title>CVStoJSON Menu</title>
+<script src="scripts/jquery-1.8.0.min.js"></script>
+<script src="scripts/jquery.simple-color.js"></script>
+<script src="scripts/CSVtoJSONMenu.js"></script>
+<link rel="stylesheet" href="css/ODOnBoarding.css">
+</head>
+<body>
+<div id="orderdude_logo"><img id="orderdudelogo" src="images/OrderDudeLogo.png" alt="" ></div>
+<h1>Add Menu</h1>
+<div id="Error"></div>
+<div id='content'>
+<br />
+<div id="help_block">
+There are 2 types of instructions accepted <br /><ul><li> Category --> represented in a single line. </li><li>Item details --> represented in format -- item,price, description </li></ul>
+<p>For Example<br />Soup<br />Chicken Corn Soup,$5.99,Soup made of chicken in chicken stock<br />Vegetable Soup,$4.00,<br />Hot and Sour Chicken Soup,small = $5.99;large = $10.99,Soup made of chicken in soy sauce<br /><br />Noodles<br />Penang Asam Laksa,$8.95,"hot & sour lai-fun noodles in lemon grass fish broth with fish, onion & pineapple"<br /></p>
+"price","item","description" --> on line 1 can change the order in which items are set<br />
+
+<br />
+</div>
+<form action="" method="POST">
+<textarea name="menu_csv" cols="120" rows="25" id="menu_csv"></textarea><br />
+<input type="submit" value="Add Menu" id="bulkmenuadd"/>
+</form>
+<div id="Result"></div>
+</div>
+</body>
+</html>

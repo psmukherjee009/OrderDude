@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>MerchantOnboarding</title>
+<script src="../jqueryEx/scripts/jquery-1.8.0.min.js"></script>
+<script src="scripts/ODOnBoarding.js"></script>
+<link rel="stylesheet" href="css/ODOnBoarding.css">
+</head>
+<body>
+<form method="post" name="monboard"><br>
+<br>
+<table id = "frametable">
+<tr>
+	<td><img id="orderdudelogo" src="file:///C:/Users/partha/Documents/PrintScreen%20Files/OrderDudeLogo.gif" alt="" ></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+<tr>
+	<td><div id="Error"></div></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+<tr>
+	<td rowspan="3"><img id="company_logo" src="file:///C:/Users/partha/Documents/PrintScreen%20Files/CompanyLogoImage.gif"></td>
+		<td></td>
+			<td></td>
+				<td><div id="forminputlabel">Email :</div><input maxlength="256" size="60" name="email" value="you@yourcompany.com" id="res_email"></td>
+					<td></td>
+						</tr>
+<tr>
+	<td></td>
+		<td></td>
+			<td><div id="forminputlabel">Phone :</div> <input maxlength="15" size="15" name="phone" value="1-555-555-5555" id="res_phone"><select name="carrier" id="res_phone_carrier"><option>att</option><option>verizon</option><option>sprint</option><option>tmobile</option></select></td>
+				<td></td>
+					</tr>
+<tr>
+	<td></td>
+		<td></td>
+			<td><div id="forminputlabel">Fax :</div><input maxlength="15" size="15" name="fax" value="1-555-555-5555" id="res_fax"></td>
+				<td></td>
+					</tr>
+<tr>
+	<td><div id="forminputlabel">Name</div><input maxlength="256" size="60" name="name" value="Restaurant Name" id="res_name"></td>
+		<td></td>
+			<td></td>
+				<td><div id="forminputlabel" id="res_products">Products</div><input name="product" value="ordering" type="checkbox" id="res_products_ordering"> Ordering <input name="product" value="payment" type="checkbox" id="res_products_payment"> Payment<input name="product" value="couponing" type="checkbox"  id="res_products_couponing"> Couponing<input name="product" value="loyalty" type="checkbox" id="res_products_loyalty">Loyalty</td>
+					<td></td>
+						</tr>							
+<tr>
+	<td><div id="forminputlabel">Description</div><input maxlength="256" size="60" name="description" value="Describe your Restaurant Type" id="res_description"></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+<tr>
+	<td><div id="forminputlabel">Password</div><input type="password" maxlength="256" size="60" name="password" value="" id="res_password"><br><sub>You can login using any of verified email, phone or fax as username</sub></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>							
+<tr>
+	<td><div id="forminputlabel">Address</div></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+
+<tr>
+	<td><input maxlength="256" size="40" name="addr_line1" value="Street Address 1" id="res_address_line1"></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+
+<tr>
+	<td><input maxlength="256" size="40" name="addr_line2" value="Street Address 2" id="res_address_line2"></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+
+<tr>
+	<td><input maxlength="60" size="30" name="addr_city" value="City" id="res_address_city"><select name="state" id="res_address_state"><option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option></select></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+
+<tr>
+	<td><input name="zip" value="zip" id="res_address_zip"></td>
+		<td></td>
+			<td></td>
+				<td></td>
+					<td></td>
+						</tr>
+<tr>
+	<td></td>
+		<td></td>
+			<td></td>
+				<td><input value="next" src="../../Documents/PrintScreen%20Files/NextButton.gif" type="image" id="onboardmerchant_pg1"></td>
+					<td></td>
+						</tr>
+</table>
+</form>
+
+</body></html>

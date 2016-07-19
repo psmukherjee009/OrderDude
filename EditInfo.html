@@ -1,0 +1,43 @@
+<!DOCTYPE html">
+<html><head>
+<meta charset="utf-8">
+<title>MerchantOnboarding -- Edit Information</title>
+<script src="scripts/jquery-1.8.0.min.js"></script>
+<script src="scripts/EditInfo.js"></script>
+<link rel="stylesheet" href="css/ODOnBoarding.css">
+<!-- Version : 2.0 , Capability : ['Slimmer Onboarding'] -->
+</head>
+<body>
+<div id="orderdude_logo"><img id="orderdudelogo" src="images/OrderDudeLogo.png" alt="" ></div>
+<div id="logout"><a href="http://www.orderdude.com/Logout.html">Logout</a></div>
+<div  id = "navmenu">
+	<ul>
+		<li><a  href = "DashBoard.html">Home</a></li>
+		<li><a  href = "EditInfo.html">Information</a></li>
+		<li><a  href = "EditMenu.html">Menu</a></li>
+		<li><a  href = "OrderBoard.html">Order Board</a></li>
+	</ul>
+</div>
+<br /><br />
+<div id="Error"></div>
+	<table id="lower_left_identity_table">
+		<tr><td><div class="forminputlabel">Name : </div></td><td><input maxlength="256" size="60" name="name" value="Restaurant Name" id="res_name">*</td></tr>
+		<tr><td><div class="forminputlabel">Phone : </div></td><td><input maxlength="15" size="15" name="phone" value="555-555-5555" id="res_phone">*</td></tr>
+		<tr><td><div class="forminputlabel">Phone Carrier:</div></td><td><select name="carrier" id="res_phone_carrier"><option>att</option><option>verizon</option><option>sprint</option><option>tmobile</option></select></td></tr>
+		<tr><td><div class="forminputlabel">SMS orders : </div></td><td><input name="res_use_sms" type="checkbox" id="res_use_sms"></td></td></tr></tr>
+		<tr><td><div class="forminputlabel">Password</div></td><td><input type="password" maxlength="256" size="60" name="password" value="" id="res_password">*<br><sub>Phone# is username</sub></td></tr>
+	</table>
+	<br /><br />
+	<div class="forminputlabel">Products</div>
+	<table id="product_table">
+		<tr><td><input name="product" value="ordering" type="checkbox" id="res_products_ordering"> Ordering</td><td><sub>(0.9% or 50 cents per order whichever is greater)</sub></td></tr>
+		<tr><td><input name="product" value="dinein" type="checkbox" id="res_products_dinein">Dine In</td><td><sub>(Comes with Ordering but you should be able to support ordering for dine in)</sub></td></tr>
+		<tr><td><input name="product" value="payatcounter" type="checkbox" id="res_products_payatcounter">Pay at Counter</td><td><sub>(Select this if pay at counter is supported)</sub></td></tr>
+		<tr><td><input name="product" value="payment" type="checkbox" id="res_products_payment">Payment</td><td><sub>(4.5% or $1 per order whichever is greater)</sub></td></tr>
+	</table>
+	<br />
+	<table id="misc_table">	
+		<tr><td><b>Tax Rate:</b></td><td><input maxlength="10" size="4" name="tax_rate" value="8%" id="res_tax">*</td></tr>
+	</table>
+	<div id="submit_btn"><input value="next" src="images/Sign-Forward-icon.png" type="image" id="onboardmerchant_pg1"></div>
+</body></html>

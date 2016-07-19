@@ -1,0 +1,1721 @@
+{
+    "Lunch - macho-burrito": {
+        "The Famous Macho Burrito": {
+            "description": "A huge flour tortilla filled with Mexican or white rice, black beans, refried or Rancho (cholesterol-free) beans and your choice of ground beef, chicken, chili verde, picadillo or chile colorado. Topped with burrito sauce and Cheddar cheese. Covered with lettuce, tomatoes, sour cream and Cotija Mexican cheese.",
+            "price": "$8.25"
+        },
+        "Carne Asada": {
+            "description": "A Ramos Family Favorite! 6 ounces of thinly sliced, seasoned skirt steak carefully charbroiled to perfection. Garnished with whole green onions, fried jalapeno pepper and guacamole.",
+            "price": "$9.95"
+        }
+    },
+    "Lunch - molcajete": {
+        "Molcajete": {
+            "description": "Chicken and steak strips sautéed in a mildly spicy sauce with mushrooms and onions. Topped with melted Monterey Jack cheese. Garnished with pico de gallo and a jalapeno pepper. Choice of steak or chicken, or enjoy a combination of both.",
+            "price": "$8.75"
+        },
+        "Pollo ala Crema": {
+            "description": "Boneless breast of chicken sautéed with onions in a rich cream sauce. Garnished with Cotija Mexican cheese.",
+            "price": "$7.95"
+        },
+        "Grilled Chimis": {
+            "description": "Not Fried! Two delicious chimichangas with your choice of seasoned ground beef, chicken or picadillo stuffed in a grilled flour tortilla. Served with sour cream, avocado slice and pico de gallo.",
+            "price": "$7.45"
+        },
+        "Chile Verde": {
+            "description": "Chunks of slow-baked pork blended with a mild, green tomatillo sauce, green peppers, onions and selected spices.",
+            "price": "$7.95"
+        },
+        "Chile Colorado": {
+            "description": "Tender cuts of beef, slow-simmered in our mild red chile sauce with onions and tomatoes.",
+            "price": "$7.95"
+        }
+    },
+    "Lunch - chicken-carnitas": {
+        "Chicken Carnitas": {
+            "description": "Strips of chicken breast, grilled with green peppers, tomatoes and onions. Served with fresh homemade guacamole.",
+            "price": "$7.95"
+        },
+        "Arroz con Pollo": {
+            "description": "A classic Azteca dish! Tender strips of boneless breast of chicken sautéed in a zesty, light, tomato sauce with mushrooms and onions. Served over a bed of Mexican rice and melted Monterey Jack cheese. (Not served with beans.)",
+            "price": "$7.95"
+        },
+        "Club Quesadilla": {
+            "description": "Whole wheat tortilla stuffed with chicken, bacon, avocado, lettuce, Monterey Jack cheese and pico de gallo. Garnished with sour cream. Served with white rice and Rancho (cholesterol-free) beans.",
+            "price": "$7.45"
+        },
+        "Chicken Taquito Combo": {
+            "description": "Azteca’s famous Chicken Taquito; a flour tortilla stuffed with tender, seasoned chicken, Jack cheese served crispy. Topped with Cotija Mexican cheese and tomatoes. Garnished with sour cream and fresh guacamole. All this combined with Mexican or white rice and black beans, refried or Rancho (cholesterol free) beans.",
+            "price": "$7.45",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Nachos Azteca": {
+            "description": "Tortilla chips with your choice of black beans, refried or Rancho (cholesterol-free) beans, jalapenos and melted Cheddar cheese. Garnished with fresh guacamole, sour cream, tomatoes and green onions.",
+            "price": {
+                "small": "$6.25",
+                "large": "$7.25"
+            }
+        }
+    },
+    "Lunch - chicken-taquitos": {
+        "Chicken Taquitos": {
+            "description": "Two large flour tortillas stuffed and rolled with our seasoned chicken and Jack cheese served crispy. Garnished with diced tomatoes, Cotija Mexican cheese, sour cream and guacamole.",
+            "price": "$8.95"
+        },
+        "Mexican Pizza": {
+            "description": "Crisp flour tortilla topped with your choice of black beans, refried or Rancho (cholesterol-free) beans, Monterey Jack and Cheddar cheese, tomatoes, and green onions; and your choice of chicken, ground beef or picadillo. Garnished with sour cream and guacamole.",
+            "price": "$7.50"
+        },
+        "Quesadilla": {
+            "description": "Two crispy, grilled flour tortillas stuffed with Cheddar and Monterey Jack cheeses, green onions and tomatoes. Served with sour cream and guacamole.",
+            "price": "$7.45",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Regular",{"ground beef":"$1.00"},{"chicken": "$1.00"},{"picadillo": "$1.00"}]
+					}
+				}
+			]
+        }
+    },
+    "Dinner - Pollo": {
+        "Pollo a la Crema": {
+            "description": "Strips of chicken breast sautéed with onions in a crema sauce. Garnished with cotija Mexican cheese.",
+            "price": "$13.95 / Shrimp $16.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Pollo Mazatlan": {
+            "description": "Grilled strips of chicken or garlic sautéed shrimp in our succulent Mazatlan sauce with mushrooms, green peppers, carrots and onions over a bed of rice and jack cheese. Served with Rancho beans and a garden salad.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Chicken Carnitas": {
+            "description": "Sautéed strips of chicken breast with green peppers, tomatoes and onions. Served with guacamole.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Arroz con Pollo": {
+            "description": "Boneless breast of chicken sautéed in a light tomato sauce with mushrooms and onions. Served over a bed of rice and melted jack cheese (not served with beans).",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Pollo Blanco": {
+            "description": "A delectable mix of sautéed chicken, mushrooms, onions, green peppers and carrots laced over white rice in a light, creamy jalapeño sauce (not served with beans).",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Pollo Fundido": {
+            "description": "Rolled flour tortilla, soft or crispy, filled with seasoned chicken and smothered with jalapeño cream cheese and melted American cheese. Served with guacamole. Not served with tortillas.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Chicken Taquito Combo": {
+            "description": "Azteca's famous chicken taquitos: flour tortilla stuffed with tender, seasoned chicken and jack cheese served crispy. Topped with cotija Mexican cheese and tomatoes. Served with Mexican rice, refried beans, sour cream and guacamole.",
+            "price": "10.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Chicken en Mole": {
+            "description": "Grilled chicken breast lightly covered with Azteca's authentic mole sauce.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        },
+        "Pollo Mexicano": {
+            "description": "Strips of chicken breast with green peppers, tomatoes and onions sautéed in zesty Azteca salso or chipotle sauce. Served with guacamole",
+            "price": "13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp":"$3.00"}]
+					}
+				}
+			]
+        }
+    },
+    "Lunch - Fajitas": {
+        "Lunch Fajitas": {
+            "description": "A lunch size portion of your favorite fajita, steak, chicken, or pork, served sizzling hot over sautéed onions and green peppers. Served with pico de gallo, sour cream, guacamole, Cheddar cheese and your choice of black beans, refried or Rancho (cholesterol-free) beans and Mexican or white rice.",
+            "price": "$9.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken","fajita","steak","chicken","pork",{"Shrimp": "$1.00"}]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Fajita Quesadilla": {
+            "description": "Crispy flour tortilla filled with Cheddar and Monterey Jack cheeses, delicious fajita, steak, chicken, or pork, and pico de gallo. Served with sour cream, guacamole.",
+            "price": "$9.25",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken","fajita","steak","chicken","pork",{"Shrimp": "$1.00"}]
+					}
+				}
+			]
+        },
+        "Fajita Burrito": {
+            "description": "Soft flour tortilla stuffed with Mexican or white rice, grilled onions and green peppers. Your choice of steak, chicken, or pork fajitas and black beans, refried or Rancho (cholesterol-free) beans. Topped with Azteca’s burrito sauce and garnished with pico de gallo, sour cream and guacamole.",
+            "price": "$9.25",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken","fajita","steak","chicken","pork",{"Shrimp": "$1.00"}]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        }
+    },
+    "Lunch - Combinations": {
+        "Poco # Juan": {
+            "description": "Combine your own favorites by choosing from the following; cheese, ground beef, chicken, picadillo (shredded beef and pork), chile verde or chile colorado. All combinations are served with black beans, refried or Rancho (cholesterol free) beans and Mexican or white rice. (Choose 1 item) Enchilada, Taco, Tamale or Tostada.",
+            "price": "$5.95",
+			"personalize": [ 
+				{
+					"Main":{
+						"choice": 1,
+						"options": ["cheese", "ground beef", "chicken", "picadillo (shredded beef and pork)", "chile verde","chile colorado"]
+					},
+					"Item" : {
+						"choice": 1,
+						"options": ["Enchilada","Taco","Tamale","Tostada"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",{"Add sour cream and fresh guacamole.": "$1.95"} ]
+					}
+				}
+			]
+        },
+        "Poco # Dos": {
+            "description": "(Choose 1 item) Chimichanga, Chalupa, Burrito or Chile Relleno.",
+            "price": "$6.95",
+			"personalize": [ 
+				{
+					"Main":{
+						"choice": 1,
+						"options": ["Chimichanga", "Chalupa", "Burrito","Chile Relleno"]
+					},
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",{"Add sour cream and fresh guacamole.": "$1.95"} ]
+					}
+				}
+			]
+        }
+	},
+	"Dinner - Combinations": {
+        "Poco (one item) 1.": {
+            "description": "Enchilada, taco, tostada or tamale (picadillo or chicken)",
+            "price": "$7.75",
+			"personalize": [ 
+				{
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",
+								{"sour cream": "$1.25"},
+								{"fresh guacamole.": "$2.95"},
+								{"Deluxe": "$2.5"} 
+							]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Main":{
+						"choice": 1,
+						"options": ["cheese", "ground beef", "chicken", "picadillo (shredded beef and pork)", "chile verde","chile colorado"]
+					},
+					"Item" : {
+						"choice": 1,
+						"options": ["Enchilada","Taco","Tamale","Tostada"]
+					}
+				}
+			]
+        },
+        "Poco (one item) 2.": {
+            "description": "Chimichanga, chalupa, burrito or chile relleno",
+            "price": "$8.95",
+			"personalize": [ 
+				{
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",
+								{"sour cream": "$1.25"},
+								{"fresh guacamole.": "$2.95"},
+								{"Deluxe": "$2.5"} 
+							]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Main":{
+						"choice": 1,
+						"options": ["cheese", "ground beef", "chicken", "picadillo (shredded beef and pork)", "chile verde","chile colorado"]
+					},
+					"Item" : {
+						"choice": 1,
+						"options": ["Chimichanga","Chalupa","Burrito","Chile Relleno"]
+					}
+				}
+			]
+        }
+    },
+    "Lunch - Ensaladas": {
+        "La Bandera": {
+            "description": "A garden salad generously topped with your choice of steak, chicken or pork fajitas. Garnished with mushrooms, tomatoes, avocado and cheese.",
+            "price": "$7.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken","steak","pork",{"Shrimp": "$1.00"}]
+					}
+				}
+			]
+        },
+        "Chicken Caesar Salad": {
+            "description": "Charbroiled chicken strips and romaine greens, tossed with Caesar dressing. Topped with garlic croutons and Cotija Mexican cheese. Garnished with tomato wedges.",
+            "price": "$7.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp": "$1.00"}]
+					}
+				}
+			]
+        },
+		"Tostada": {
+            "description": "Crispy corn tortilla shell topped with choice of black beans, refried or Rancho (cholesterol free) beans, lettuce, cheese, tomatoes and choice of ground beef, chicken or picadillo. Prefer your tostada salad Northern style with a crispy flour tortilla? Just tell your server. Make it charbroiled steak or chicken for only 50¢ more.",
+            "price": "$6.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["ground beef","chicken","picadillo",{"Charbroiled Chicken":"$0.50"},{"charbroiled steak": "$0.50"}]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black","refried","Rancho (cholestrol free)"]
+					}
+				}
+			]
+        }
+    },
+	"Dinner - Enchiladas": {
+        "Choice #1 Enchiladas a la Crema": {
+            "description": "Enchiladas smothered with a rich, decadent cream sauce and cheddar cheese. Tastes best with chicken.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["ground beef","chicken","picadillo",{"Shrimp":"$1.95"}]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black","refried","Rancho (cholestrol free)"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",{"Add sour cream and fresh guacamole.": "$1.95"} ]
+					}
+				}
+			]
+        },
+        "Choice #2 Enchiladas Ranchera": {
+            "description": "Enchiladas smothered with Azteca's famous Arroz con Pollo Salsa, diced white onions, green peppers, tomatoes and jack cheese.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["ground beef","chicken","picadillo",{"Shrimp":"$1.95"}]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black","refried","Rancho (cholestrol free)"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",{"Add sour cream and fresh guacamole.": "$1.95"} ]
+					}
+				}
+			]
+        },
+        "Choice #3 Enchiladas Verdes": {
+            "description": "A beautifully balanced blend of tomatillos (green tomatoes) and green chiles. These enchiladas are characterized by the tart, fresh flavor of the verde salsa.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["ground beef","chicken","picadillo",{"Shrimp":"$1.95"}]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black","refried","Rancho (cholestrol free)"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Deluxe": {
+						"choice": 1,
+						"options": ["NONE",{"Add sour cream and fresh guacamole.": "$1.95"} ]
+					}
+				}
+			]
+        }
+    },
+	"Lunch - taco-salad": {
+        "Taco Salad": {
+            "description": "An Azteca favorite served in a crispy flour shell with your choice of ground beef, chicken or picadillo. Layered with lettuce, cheese and tomatoes. Make it charbroiled steak or chicken for only 50¢ more!",
+            "price": "$6.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["ground beef","chicken","picadillo",{"Charbroiled Chicken":"$0.50"},{"charbroiled steak": "$0.50"}]
+					}
+				}
+			]
+        }
+    },
+	"Dinner - taco-salad": {
+        "Taco Salad": {
+            "description": "An Azteca favorite served in a crispy flour shell with your choice of ground beef, chicken or picadillo. Layered with lettuce, cheese and tomatoes. Make it charbroiled steak or chicken for only 50¢ more!",
+            "price": "$8.25",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["ground beef","chicken","picadillo",{"Charbroiled Chicken":"$1.50"},{"charbroiled steak": "$1.50"}]
+					}
+				}
+			]
+        },
+		"Chicken Caesar Salad": {
+            "description": "Charbroiled chicken strips and romaine greens, tossed with Caesar dressing. Topped with garlic croutons and Cotija Mexican cheese. Garnished with tomato wedges.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp": "$2.00"}]
+					}
+				}
+			]
+        },
+		"La Bandera Ensalada": {
+            "description": "A garden salad generously topped with choice of steak, chicken or pork fajitas. Garnished with mushrooms, tomatoes, avocado and cheese.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Chicken",{"Shrimp": "$2.00"}]
+					}
+				}
+			]
+        },
+		"Tostadas": {
+            "description": "Crispy corn tortilla shell topped with choice of black beans, refried or Rancho (cholesterol free) beans, lettuce, cheese, tomatoes and choice of ground beef, chicken or picadillo.",
+            "price": "$8.25"
+        }
+    },
+    "Lunch - Sandwiches": {
+        "Teto’s Burger": {
+            "description": "A favorite of Teto Ramos! 1/2 lb. all-beef burger grilled with crisp bacon, American cheese and a Poblano chile. Served on a fresh sesame seed bun with lettuce, tomato, onion and seasoned Azteca fries.",
+            "price": "$8.95"
+        },
+        "Chicken Sandwich": {
+            "description": "Charbroiled chicken breast served on a fresh sesame seed bun. Served with lettuce, tomato, onion and seasoned Azteca fries.",
+            "price": "$7.75"
+        },
+        "Cheeseburger": {
+            "description": "1/2 lb. all beef hamburger topped with Cheddar cheese. Served on a fresh sesame seed bun with lettuce, tomato, onion and seasoned Azteca fries.",
+            "price": "$7.75"
+        }
+    },
+	"Dinner - Sandwiches": {
+        "Teto’s Burger": {
+            "description": "A favorite of Teto Ramos! 1/2 lb. all-beef burger grilled with crisp bacon, American cheese and a Poblano chile. Served on a fresh sesame seed bun with lettuce, tomato, onion and seasoned Azteca fries.",
+            "price": "$9.95"
+        },
+        "Chicken Sandwich": {
+            "description": "Charbroiled chicken breast served on a fresh sesame seed bun. Served with lettuce, tomato, onion and seasoned Azteca fries.",
+            "price": "$8.95"
+        },
+        "Cheeseburger": {
+            "description": "1/2 lb. all beef hamburger topped with Cheddar cheese. Served on a fresh sesame seed bun with lettuce, tomato, onion and seasoned Azteca fries.",
+            "price": "$8.95"
+        },
+		"Club Quesadilla": {
+            "description": "Whole wheat tortilla stuffed with fajita chicken, bacon, avocado, lettuce, Jack cheese and pico de gallo. Garnished with sour cream.",
+            "price": "$10.50",
+			"personalize": [ 
+				{
+					"Meat":{
+						"choice": 1,
+						"options": ["Regular",{"Shrimp":"$3.45"}]
+					}
+				}
+			]
+        }
+    },
+    "Lunch - Soups": {
+        "Sopa Azteca (Tortilla Soup)": {
+            "description": "Hearty chunks of tender chicken breast and fresh avocado with tortilla strips and shredded cheese in a rich chicken broth.",
+            "price": {
+                "Cup": "$3.95",
+                "Bowl": "$4.95"
+            }
+        },
+        "Black Bean Soup": {
+            "description": "A combination of black beans, fresh onions, carrots, tomatoes and potatoes. Garnished with Cotija Mexican cheese.",
+            "price": {
+                "Cup": "$3.25",
+                "Bowl": "$4.95"
+            }
+        },
+        "Azteca Diablo Shrimp and Tequila Chowder": {
+            "description": "A hearty chowder of chorizo, shrimp, green chiles, tomatoes, cilantro and jalapenos simmered in a rich seafood broth with a hint of Chipotle and Tequila.",
+            "price": {
+                "Cup": "$3.95",
+                "Bowl": "$7.25"
+            }
+        },
+        "Sopa de Pollo (Chicken Soup Bowl)": {
+            "description": "Tender chicken breasts, carrots, zucchini and red potatoes in a rich broth. Cilantro, diced onions, jalapenos, limes and Mexican rice are served on the side.",
+            "price": "$7.95"
+        }
+    },
+	"Dinner - Soups": {
+        "Sopa Azteca (Tortilla Soup)": {
+            "description": "Hearty chunks of tender chicken breast and fresh avocado with tortilla strips and shredded cheese in a rich chicken broth.",
+            "price": {
+                "Cup": "$4.95",
+                "Bowl": "$6.50"
+            }
+        },
+        "Black Bean Soup": {
+            "description": "A combination of black beans, fresh onions, carrots, tomatoes and potatoes. Garnished with Cotija Mexican cheese.",
+            "price": {
+                "Cup": "$3.95",
+                "Bowl": "$5.95"
+            }
+        },
+        "Azteca Diablo Shrimp and Tequila Chowder": {
+            "description": "A hearty chowder of chorizo, shrimp, green chiles, tomatoes, cilantro and jalapenos simmered in a rich seafood broth with a hint of Chipotle and Tequila.",
+            "price": {
+                "Cup": "$5.25",
+                "Bowl": "$8.50"
+            }
+        },
+        "Sopa de Pollo (Chicken Soup Bowl)": {
+            "description": "Tender chicken breasts, carrots, zucchini and red potatoes in a rich broth. Cilantro, diced onions, jalapenos, limes and Mexican rice are served on the side.",
+            "price": "$8.95"
+        }
+    },
+    "Lunch - Vegi-Mex®": {
+        "Enchiladas Espinaca": {
+            "description": "Spinach sautéed with mushrooms, onions, tomatoes, cilantro and jalapeno rolled into two corn tortillas smothered with our Vegi-sauce and topped with Jack cheese.",
+            "price": "$7.50"
+        },
+        "Tamale Espinaca": {
+            "description": "One handmade tamale filled with seasoned spinach and feta cheese. Topped with a spinach cream sauce and pico de gallo.",
+            "price": "$7.50"
+        },
+        "Vegi-Chiladas": {
+            "description": "Steamed carrots, mushrooms, broccoli and zucchini rolled in flour tortillas, topped with vegi-sauce and garnished with Monterey Jack cheese. Served with sour cream.",
+            "price": "$7.50"
+        },
+        "Vegi-Quesadilla": {
+            "description": "Whole wheat tortillas wrapped around sautéed mushrooms, carrots, zucchini and broccoli and filled with melted Cheddar and Monterey Jack cheese. Served with guacamole.",
+            "price": "$7.50"
+        }
+    },
+	"Dinner - Vegi-Mex®": {
+        "Enchiladas Espinaca": {
+            "description": "Spinach sautéed with mushrooms, onions, tomatoes, cilantro and jalapeno rolled into two corn tortillas smothered with our Vegi-sauce and topped with Jack cheese.",
+            "price": "$10.25"
+        },
+        "Tamale Espinaca": {
+            "description": "One handmade tamale filled with seasoned spinach and feta cheese. Topped with a spinach cream sauce and pico de gallo.",
+            "price": "$10.25"
+        },
+        "Vegi-Macho Burrito": {
+            "description": "Flour tortilla filled with mushrooms, carrots, zucchini, broccoli, cauliflower, white rice and black beans or Rancho (cholesterol-free) beans. Topped with verde salsa, Chipotle sauce or Azteca’s special salsa. Garnished with lettuce, pico de gallo and Cotija Cheese.",
+            "price": "$10.25"
+        },
+        "Vegi Enchiladas": {
+            "description": "Steamed carrots, mushrooms, broccoli, cauliflower and zucchini rolled in flour tortillas. Topped with verde sauce, garnished with Jack cheese and served with sour cream.",
+            "price": "$10.25"
+        }
+    },
+    "Beverages": {
+        "Soft Drinks": {
+            "description": "Pepsi, Diet Pepsi, 7-Up, Dr. Pepper, Mountain Dew and Mug Root Beer",
+            "price": "$1.00",
+			"personalize": [ 
+				{
+					"Soft Drinks":{
+						"choice": 1,
+						"options": ["Pepsi","Diet Pepsi","7-Up","Dr. Pepper","Mountain Dew","Mug Root Beer"]
+					}
+				}
+			]
+        },
+        "Lemonade": {
+            "description": "Add strawberry, raspberry, peach watermelon or kiwi.",
+            "price": "$1.00",
+			"personalize": [ 
+				{
+					"Lemonade": {
+						"choice": 1,
+						"options": ["regular","strawberry","raspberry","peach watermelon","kiwi"]
+					}
+				}
+			]
+        },
+        "Beverages": {
+            "description": "Milk – Coffee – Hot Tea – Fresh Brewed Iced Tea",
+            "price": "$1.00",
+			"personalize": [ 
+				{
+					"Beverages": {
+						"choice": 1,
+						"options": ["Milk","Coffee","Hot Tea","Fresh Brewed Iced Tea"]
+					}
+				}
+			]
+        },
+        "Liquor": {
+            "description": "Margaritas – Mojitos – Martinis y Mas!",
+            "price": "$1.00",
+			"personalize": [ 
+				{
+					"Liquor": {
+						"choice": 1,
+						"options": ["Margaritas","Mojitos","Martinis y Mas!"]
+					}
+				}
+			]
+        }
+    },
+	"Little Amigo": {
+        "Mexi-Hot Doggie": {
+            "description": "All beef hot dog with American cheese wrapped in a flour tortilla.",
+            "price": "$4.95"
+        },
+        "Cheesy Mex-andwich": {
+            "description": "Delicious grilled cheese sandwich.",
+            "price": "$4.95"
+        },
+        "Chick Tenders": {
+            "description": "Breaded strips of tender white chicken meat, served with a side of honey mustard.",
+            "price": "$4.95"
+        },
+        "Mexi-Bites": {
+            "description": "Mini quesadilla, chicken tender, mozzarella cheese stick, served with a side of honey mustard.",
+            "price": "$4.95"
+        },
+        "Kraft® Macaroni and Cheese ": {
+            "description": "Kraft® Macaroni and Cheese ",
+            "price": "$4.95"
+        },
+        "Taco ": {
+            "description": "Taco ",
+            "price": "$4.95"
+        },
+        "Mini Burrito": {
+            "description": "Mini Burrito",
+            "price": "$4.95"
+        },
+        "Enchilada": {
+            "description": "Enchilada ",
+            "price": "$4.95"
+        },
+        "Cheese Crispy (no meat)": {
+            "description": "Cheese Crispy (no meat)",
+            "price": "$4.95"
+        },
+        "Mini Quesadilla": {
+            "description": "Mini quesadilla",
+            "price": "$4.95"
+        },
+        "Mini Mexican Pizza": {
+            "description": "Mini Mexican Pizza ",
+            "price": "$4.95"
+        }
+    },
+	"Dinner - Appetizers": {
+        "Coctel de Camarones": {
+            "description": "Enjoy this truly Mexican combination of shrimp, pico de gallo and fresh, diced avocados. Served marinated in natural juices. Served hot or cold. This coctel is fabulous with a Mexican chelada!",
+            "price": "$13.95"
+        },
+        "Azteca Queso Dip": {
+            "description": "Dip into a warm blend of selected cheeses, spinach and chiles. All baked together and served with fresh tortilla chips.",
+            "price": "$5.95"
+        },
+        "Chicken Taquitos": {
+            "description": "Two rolled flour tortillas stuffed with chicken and jack cheese, served crispy. Garnished with tomatoes, cotija Mexican cheese, sour cream and guacamole.",
+            "price": "$9.95"
+        },
+        "Nachos Azteca": {
+            "description": "Azteca's award-winning nachos! Crisp corn tortilla chips topped with beans, jalapeños and melted cheddar cheese. Garnished with tomatoes, green onions, sour cream and guacamole.",
+            "price": "$7.75"
+        },
+		"Nachos Azteca": {
+            "description": "Tortilla chips with your choice of black beans, refried or Rancho (cholesterol-free) beans, jalapenos and melted Cheddar cheese. Garnished with fresh guacamole, sour cream, tomatoes and green onions.",
+            "price": "$6.25",
+			"personalize": [
+				{
+					"Size": {
+						"choice": 1,
+						"options": ["small",{"large":"$1.00"}]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": [{"ground beef":"$1.50"},{"chicken":"$1.50"},{"picadillo":"$1.50"}]
+					}
+				}
+			]
+        },
+        "Mojo do Ajo": {
+            "description": "A Mexican coastal delicacy! Shrimp or scallops and mushrooms sautéed in a slightly spicy sauce of rich butter, crushed red pepper and fresh garlic.",
+            "price": "$11.50",
+			"personalize": [
+				{
+					"Size": {
+						"choice": 1,
+						"options": ["1/2 lb",{"1 lb":"$4.45"}]
+					}
+				}
+			]
+        },
+        "Mexican Pizza": {
+            "description": "Crisp flour tortilla topped with choice of refried or Rancho beans (cholesterol-free), and choice of ground beef, chicken or picadillo. Topped with jack and cheddar cheese, tomatoes and green onions. Garnished with sour cream and guacamole.",
+            "price": "$9.45"
+        },
+        "Malibu Coconut Prawns": {
+            "description": "Malibu coconut battered prawns (6). Served with a zesty mango chipotle marmalade.",
+            "price": "$10.95"
+        },
+        "Quesadillas": {
+            "description": "Two crispy flour tortillas stuffed with cheddar and jack cheese, green onions and tomatoes. Served with sour cream and guacamole.",
+            "price": "$10.95",
+			"personalize": [
+				{
+					"Meat":{
+						"choice": 1,
+						"options": [{"ground beef":"$1.50"},{"chicken":"$1.50"},{"picadillo":"$1.50"},{"spinach":"$1.50"}]
+					}
+				}
+			]
+        }
+    },
+	"Dinner - Fajitas": {
+        "Steak Fajitas": {
+            "description": "",
+            "price": "$15.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Shrimp Fajitas": {
+            "description": "",
+            "price": "$16.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Chicken Fajitas": {
+            "description": "",
+            "price": "$14.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Fish Fajitas": {
+            "description": "Tortilla crusted Tilapia",
+            "price": "$14.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Pork Carnitas Fajitas": {
+            "description": "",
+            "price": "$14.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Vegi-Fajitas": {
+            "description": "",
+            "price": "$10.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Fajita Sampler": {
+            "description": "Steak, chicken and shrimp",
+            "price": "$16.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Fajitas Sampler for Two": {
+            "description": "Served family style. Choose any three: steak, chicken, pork, fish or shrimp.",
+            "price": "$29.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					}
+				}
+			]
+        },
+        "Fajita Quesadilla": {
+            "description": "Flour tortilla stuffed with cheddar and jack cheese, your favorite fajita meat and pico de gallo. Garnished with sour cream and guacamole.",
+            "price": "$12.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Medley": {
+						"choice": 1,
+						"options": ["Onions and Green Peppers",{"steamed broccoli, mushrooms and carrots": "$1.95"}]
+					},
+					"Meat":{
+						"choice": 1,
+						"options": ["Regular",{"Shrimp":"$1.00"}]
+					}
+				}
+			]
+        }
+    },
+    "Dinner - Carnes": {
+        "Carnitas de Res": {
+            "description": "Skirt steak with green peppers and onions. Served with guacamole.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Carne Asada y Mojo": {
+            "description": "Your choice of grilled carne asada or grilled pollo asado accompanied by shrimp and mushrooms sautéed in Azteca's garlic and crushed red pepper butter.",
+            "price": "$17.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Carne Asada y Mas": {
+            "description": "Carne asada combined with your choice of an enchilada, chile relleno, tostada, taco or tamale (chicken or picadillo).",
+            "price": "$15.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Carne Asada": {
+            "description": "Thinly sliced, seasoned skirt steak, carefully charbroiled to perfection. Garnished with whole green onions, fried jalapeño pepper and guacamole.",
+            "price": "$15.75",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Steak Mexicano": {
+            "description": "Skirt steak, green peppers and onions sautéed in a zesty Azteca salsa or chipotle sauce. Served with guacamole.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Chile Colorado": {
+            "description": "Slowly simmered chunks of beef cooked in a delicious mild red chile sauce. Garnished with green onions.",
+            "price": "$12.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Chile Verde": {
+            "description": "Tender chunks of pork blended with a mild tomatillo sauce, green peppers, onions and spices.",
+            "price": "$12.25",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Azteca Chile Combo": {
+            "description": "Amigos ~ Two of your Azteca favorites! Chile Colorado and Chile Verde.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					},
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        }
+    },
+    "Dinner - Mexican Favorites": {
+        "Molcajete": {
+            "description": "A Mexican style stew of chicken or steak (or choose a combination of chicken and steak) sautéed in a mildly spicy sauce with mushrooms, onions and tomatoes. Topped with melted Jack cheese. Garnished with a whole green onion and a jalapeño pepper. Served with sliced avocado and corn or flour tortillas.",
+            "price": "$14.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Seafood Molcajete": {
+            "description": "The same delicious Mexican style stew as above but with a combination of tender Shrimp, scallops and whitefish.",
+            "price": "$15.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Borrego (Lamb Shank)": {
+            "description": "Marinated, seasoned lamb shank slowly baked until tender. Served with marinade sauce, pico de gallo, sliced avocado, Rancho beans and corn or flour tortillas.",
+            "price": "$14.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Lamb Shank": {
+						"choice": 1,
+						"options": ["Regular",{"Extra": "$6.95"}]
+					}
+				}
+			]
+        },
+        "Plato Mexicano": {
+            "description": "Taquito Ranchero ~ Crisp corn tortilla filled with chicken, garnished with onion and cotija cheese. Carne Asada ~ Filet of skirt steak charbroiled and garnished with grilled onions and a fried jalapeno pepper. Chile Relleno ~ Cheese stuffed Poblano chile, fried in a light egg batter topped with Azteca’s special salsa and cotija cheese. Jalisco-style Enchilada ~ Filled with Jack cheese and dipped in a sauce of mild chiles and seasonings with onion and cotija cheese.",
+            "price": "$16.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "$15.25": {
+            "description": "Tres Amigos Chile Colorado ~ Slowly simmered beef, cooked in a delicious mild red chile sauce and sprinkled with chopped green onions. Chile Verde ~ Tender chunks of pork blended with a mild tomatillo sauce, green peppers, onions and spices. Chile Relleno ~ Cheese stuffed Poblano chile, fried in a light egg batter topped with Azteca’s special salsa and Mexican cotija cheese.",
+            "price": "tres-amigos-dinner",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Taquitos Rancheros": {
+            "description": "Crisp corn tortillas filled with picadillo or chicken. Garnished with tomatoes, Cotija Mexican cheese, sour cream and guacamole.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        },
+        "Flautas": {
+            "description": "Crisp flour tortillas filled with picadillo or chicken. Garnished with tomatoes, Cotija Mexican cheese, sour cream and guacamole.",
+            "price": "$10.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					}
+				}
+			]
+        }
+    },
+    "Dinner - Mariscos": {
+        "Camarones Monterey": {
+            "description": "Cilantro and garlic marinated shrimp wrapped in bacon, baked and served Fajita style over sautéed onions, carrots and green peppers. Topped with melted Jack cheese. Served with pico de gallo, sour cream and guacamole.",
+            "price": "$16.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Arroz con Mariscos": {
+            "description": "Choice of shrimp or scallops sautéed in a light tomato sauce with mushrooms and onions. Served over a bed of rice with Jack cheese (Not served with beans.)",
+            "price": "$15.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Seafood Chimichanga": {
+            "description": "Sautéed shrimp, scallops, fish, celery, carrots, onions, green peppers and mushrooms, rolled into a crisp flour tortilla smothered with Salsa de Mazatlan. Served with sour cream and guacamole. (Not served with tortillas)",
+            "price": "$13.75",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Camarones Blancos": {
+            "description": "A delectable mix of sautéed shrimp, mushrooms, onions, green peppers and carrots over white rice, nestled in a light, creamy jalapeño sauce. (Not served with beans)",
+            "price": "$16.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Mariscos Mojo de Ajo": {
+            "description": "Choice of shrimp or scallops sautéed with mushrooms in butter, garlic and crushed red pepper. Slightly spicy.",
+            "price": "$15.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Camarones Mexicanos": {
+            "description": "Succulent shrimp sautéed with green peppers, onions and mushrooms in your choice of zesty Azteca salsa or Chipotle sauce.",
+            "price": "$15.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        }
+    },
+    "Dinner - Tacos Mexicanos": {
+        "Tacos Autenticos": {
+            "description": "Three (3) tacos made with corn tortillas, charbroiled steak or chicken, finished with white onions, cilantro and Azteca salsa.",
+            "price": "$12.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Tacos al Carbon": {
+            "description": "Three (3) corn tortillas dipped in our special salsa, grilled and stuffed with your choice of charbroiled steak or Chicken. Garnished with tomatoes, Cotija cheese and guacamole.",
+            "price": "$13.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Fish Tacos": {
+            "description": "Three (3) Fish Tacos (baked tortilla crusted tilapia). Finished with cabbage, fresh pico de gallo and Azteca’s Chipotle Ranch sauce. Garnished with lime wedge and orange wheel.",
+            "price": "$14.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Shrimp Tacos": {
+            "description": "Three (3) shrimp tacos served mojo de ajo style (sautéed in Azteca’s garlic butter ~ slightly spicy) and finished with cabbage, pico de gallo and Azteca’s Chipotle Ranch sauce.",
+            "price": "$14.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Tacos al Pastor": {
+            "description": "Diced pork marinated in our special spice blend including Chile California, pineapple, lemon juice, garlic, cumin, cloves and bay leaves. Garnished with grilled green onions, fresh pico de gallo, avocado slice and lime wedge.",
+            "price": "$12.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        },
+        "Carnitas Tacos": {
+            "description": "Slow cooked, simmered, then roasted pork, creating a beautiful alternating texture of softness with carmelized crispness. Finished with diced white onions and cilantro. Garnished with lettuce, mixed cabbage and lime wedge.",
+            "price": "$12.95",
+			"personalize": [ 
+				{
+					"Rice": {
+						"choice": 1,
+						"options": ["Mexican","white"]
+					},
+					"Beans": {
+						"choice": 1,
+						"options": ["black beans", "refried", "Rancho (cholesterol free)"]
+					},
+					"Flour": {
+						"choice": 1,
+						"options": ["Corn","Flour"]
+					}
+				}
+			]
+        }
+    },
+    "Dinner - Burritos": {
+        "Southwest Burrito": {
+            "description": "12 inch flour tortilla filled with rancho beans, Mexican Rice, our famous zesty Molcajete tomato sauce and tender grilled Chicken breast. Finished with Azteca burrito sauce, cheddar and Jack cheese.",
+            "price": "$9.95"
+        },
+        "Burrito Blanco": {
+            "description": "12 inch flour tortilla stuffed with Jalapeño cream cheese (not spicy ~ just delicious) rancho beans, white rice and tender Grilled chicken breast. All rolled up and finished with Azteca’s Crema sauce, cheddar and cotija cheeses.",
+            "price": "$10.95"
+        },
+        "Carnitas Burrito": {
+            "description": "A burrito with your choice of chicken or pork carnitas, stuffed with Mexican rice, refried beans, onions and green peppers. Topped with burrito sauce and a blend of Jack and Cotija Mexican cheese. Served with green onions, pico de gallo and sour cream.",
+            "price": "$12.95"
+        },
+        "Carne Asada Burrito": {
+            "description": "Two burritos stuffed with tender skirt steak, refried beans and Mexican rice. Topped with Azteca’s Molcajete sauce, Cotija Mexican cheese and a whole green onion. Served with grilled green peppers and onions, pico de gallo, sour cream. macho-burrito",
+            "price": "$15.95"
+        },
+        "Macho Burrito®": {
+            "description": "A super flour tortilla filled with rice, beans and choice of ground beef, chicken, picadillo, chile verde or chile colorado. Smothered with burrito sauce and topped with Cheddar cheese, lettuce, tomatoes, sour cream and Cotija Mexican cheese.",
+            "price": "$10.95"
+        },
+        "Fajita Burrito": {
+            "description": "Flour tortilla stuffed with rice, beans, grilled onions and green peppers. Topped with Arroz con Pollo sauce and garnished with pico de gallo, sour cream and guacamole.",
+            "price": "Steak, Pork or Chicken $12.95 / Shrimp $13.95",
+			"personalize": [ 
+				{
+					"Meat": {
+						"choice": 1,
+						"options": ["Steak","Pork","Chicken",{"Shrimp":"$1."}]
+					}
+				}
+			]
+        }
+    }
+}
